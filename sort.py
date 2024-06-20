@@ -17,8 +17,7 @@
 """
 
 
-import matplotlib
-matplotlib.use('agg')  # Use non-interactive backend
+ # Use non-interactive backend
 
 # Other imports for sort.py
 
@@ -35,6 +34,8 @@ import glob
 import time
 import argparse
 from filterpy.kalman import KalmanFilter
+
+matplotlib.use('agg') 
 
 
 np.random.seed(0)

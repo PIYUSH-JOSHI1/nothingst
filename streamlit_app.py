@@ -5,7 +5,7 @@ import cvzone
 import math
 from sort import *
 
-cap = cv2.VideoCapture("./videos/IndiraNagar.mp4")  # For Video
+cap = cv2.VideoCapture("./videos/Indira_Nagar_Recording (1) (1) (1).mp4")  # For Video
 # cap = cv2.VideoCapture(0)  # For Webcam
 
 model = YOLO("yolov8l.pt")

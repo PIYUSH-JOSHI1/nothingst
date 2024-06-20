@@ -15,6 +15,13 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+
+
+import matplotlib
+matplotlib.use('agg')  # Use non-interactive backend
+
+# Other imports for sort.py
+
 from __future__ import print_function
 
 import os

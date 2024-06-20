@@ -4,3 +4,7 @@ cvzone==1.5.6  # Specifying a known compatible version
 Pillow>=9.3.0
 numpy>=1.21.0,<1.25.0
 ultralytics==8.2.0  # Ensure Python compatibility as per the error message
+
+# Additional packages to resolve libGL.so.1 error
+libgl1-mesa-glx
+mesa-libGL

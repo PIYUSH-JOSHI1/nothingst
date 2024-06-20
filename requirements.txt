@@ -6,7 +6,7 @@ numpy>=1.21.0,<1.25.0
 ultralytics==8.2.0  # Ensure compatibility with Python 3.7-3.11
 
 # Ensure Python version compatibility
->=3.7,<3.12
+python_version >= "3.7" and python_version < "3.12"
 
 # Install OpenGL libraries to resolve libGL.so.1 error
 # These packages depend on your Linux distribution
